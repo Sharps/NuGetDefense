@@ -25,7 +25,7 @@ namespace NuGetDefense.Configuration
 
         public BuildErrorSettings ErrorSettings { get; set; } = new BuildErrorSettings();
 
-        public VulnerabilitySourceConfiguration OssIndex { get; set; } = new VulnerabilitySourceConfiguration();
+        public RemoteVulneravilitySourceConfiguration OssIndex { get; set; } = new RemoteVulneravilitySourceConfiguration();
 
         public OfflineVulnerabilitySourceConfiguration NVD { get; set; } =
             new OfflineVulnerabilitySourceConfiguration();
